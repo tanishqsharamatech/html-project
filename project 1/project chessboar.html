@@ -3,44 +3,24 @@
         <title>chess board</title>
     </head>
     <body>
-       
         <div class="chessboard">
-            <div class="a" >&#9812 </div>
-            <div class="b" >&#9813</div>
-            <div class="a" >&#9814</div>
-            <div class="b" >&#9815</div>
-            <div class="a" >&#9816</div>
-            <div class="b" >&#9817</div>
-            <div class="a" >&#9818</div>
-            <div class="b" >&#9819</div>
+            <div class="a"><span>&#9814;</span></div>
+            <div class="b"><span>&#9816;</span></div>
+            <div class="a"><span>&#9815;</span></div>
+            <div class="b"><span>&#9813;</span></div>
+            <div class="a"><span>&#9812;</span></div>
+            <div class="b"><span>&#9815;</span></div>
+            <div class="a"><span>&#9816;</span></div>
+            <div class="b"><span>&#9814;</span></div>
 
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
-
-            <div class="a"></div>
-            <div class="b"></div>
-            <div class="a"></div>
-            <div class="b"></div>
-            <div class="a"></div>
-            <div class="b"></div>
-            <div class="a"></div>
-            <div class="b"></div>
-
-            
-            <div class="b"></div>
-            <div class="a"></div>
-            <div class="b"></div>
-            <div class="a"></div>
-            <div class="b"></div>
-            <div class="a"></div>
-            <div class="b"></div>
-            <div class="a"></div>
+            <div class="b"><span>&#9817;</span></div>
+            <div class="a"><span>&#9817;</span></div>
+            <div class="b"><span>&#9817;</span></div>
+            <div class="a"><span>&#9817;</span></div>
+            <div class="b"><span>&#9817;</span></div>
+            <div class="a"><span>&#9817;</span></div>
+            <div class="b"><span>&#9817;</span></div>
+            <div class="a"><span>&#9817;</span></div>
 
             <div class="a"></div>
             <div class="b"></div>
@@ -51,7 +31,6 @@
             <div class="a"></div>
             <div class="b"></div>
 
-                
             <div class="b"></div>
             <div class="a"></div>
             <div class="b"></div>
@@ -61,62 +40,100 @@
             <div class="b"></div>
             <div class="a"></div>
 
-            <div class="a">&#9812</div>
-            <div class="b">&#9813</div>
-            <div class="a">&#9814</div>
-            <div class="b">&#9815</div>
-            <div class="a">&#9816</div>
-            <div class="b">&#9817</div>
-            <div class="a">&#9818</div>
-            <div class="b">&#9819</div>
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="a"></div>
+            <div class="b"></div>
 
-                 
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
-            <div class="b">&#9823</div>
-            <div class="a">&#9823</div>
+            <div class="b"></div>
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="a"></div>
 
-           
+            <div class="a"><span>&#9823;</span></div>
+            <div class="b"><span>&#9823;</span></div>
+            <div class="a"><span>&#9823;</span></div>
+            <div class="b"><span>&#9823;</span></div>
+            <div class="a"><span>&#9823;</span></div>
+            <div class="b"><span>&#9823;</span></div>
+            <div class="a"><span>&#9823;</span></div>
+            <div class="b"><span>&#9823;</span></div>
 
+            <div class="b"><span>&#9820;</span></div>
+            <div class="a"><span>&#9822;</span></div>
+            <div class="b"><span>&#9821;</span></div>
+            <div class="a"><span>&#9819;</span></div>
+            <div class="b"><span>&#9818;</span></div>
+            <div class="a"><span>&#9821;</span></div>
+            <div class="b"><span>&#9822;</span></div>
+            <div class="a"><span>&#9820;</span></div>
         </div>
-         <style>
-                .chessboard{
-                    border: 2px solid black;
-                    display: flex;
-                    width: 640px;
-                    height: 640px;
-                    flex-wrap: wrap;
-                    
-
-                }
-                body{
-                  
-                    display: flex;                    
-                    align-items: center;
-                    justify-content: center;
-                }
-                .chessboard div{
-                    width: 10%;
-                    height: 80px;                   
-                    width: calc(100%/8);
-                    font-size: 60px;
-                   text-align: center;
-
-
-
-
-                }
-                .a{
-                    background-color:lightsteelblue;
-                }
-                 .b{
-                    background-color: yellow;
-                }
-
-            </style>
+        <style>
+            .chessboard {
+                border: 2px solid black;
+                display: flex;
+                width: 640px;
+                height: 640px;
+                flex-wrap: wrap;
+            }
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                user-select: none;
+            }
+            .chessboard div {
+                width: 10%;
+                height: 80px;
+                width: calc(100% / 8);
+                font-size: 60px;
+                text-align: center;
+            }
+            .chessboard div span {
+                cursor: pointer;
+            }
+            .a {
+                background-color: white;
+            }
+            .b {
+                background-color: rgb(7, 217, 21);
+            }
+        </style>
     </body>
+    <script>
+        // Make chess pieces draggable and movable
+        const chessboard = document.querySelector('.chessboard');
+        let draggedPiece = null;
+        let sourceCell = null;
+
+        chessboard.addEventListener('mousedown', function(e) {
+            if (e.target.tagName === 'SPAN') {
+                draggedPiece = e.target;
+                sourceCell = e.target.parentElement;
+                draggedPiece.style.opacity = '0.5';
+            }
+        });
+
+        document.addEventListener('mouseup', function(e) {
+            if (draggedPiece) {
+                draggedPiece.style.opacity = '1';
+                const elem = document.elementFromPoint(e.clientX, e.clientY);
+                if (elem && elem.parentElement === chessboard && elem.tagName === 'DIV' && elem !== sourceCell) {
+                    if (!elem.querySelector('span')) {
+                        elem.appendChild(draggedPiece);
+                    }
+                }
+                draggedPiece = null;
+                sourceCell = null;
+            }
+        });
+    </script>
 </html>
